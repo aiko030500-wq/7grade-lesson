@@ -1,16 +1,46 @@
 <!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>AI Bayan · Excel 7</title>
-  <link rel="stylesheet" href="styles.css?v=1">
+  <style>
+    body{
+      font-family:system-ui;
+      background:#f3fdf7;
+      margin:0;
+      padding:0;
+    }
+    .card{
+      max-width:420px;
+      margin:80px auto;
+      background:#fff;
+      padding:20px;
+      border-radius:16px;
+      box-shadow:0 10px 30px rgba(0,0,0,.1);
+    }
+    input,button{
+      width:100%;
+      padding:12px;
+      margin-top:10px;
+      font-size:16px;
+    }
+    button{
+      background:#0aa35f;
+      color:#fff;
+      border:none;
+      border-radius:10px;
+    }
+    .msg{margin-top:10px;color:#c00}
+  </style>
 </head>
 <body>
-  <div id="app"></div>
 
-  <!-- ВАЖНО: data.js ПЕРВЫМ -->
-  <script src="data.js?v=1"></script>
-  <script src="app.js?v=1"></script>
+<div id="app"></div>
+
+<!-- ОБЯЗАТЕЛЬНО: data.js ПЕРВЫМ -->
+<script src="data.js?v=99"></script>
+<script src="app.js?v=99"></script>
+
 </body>
 </html>
